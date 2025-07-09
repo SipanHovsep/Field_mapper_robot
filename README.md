@@ -10,6 +10,8 @@ Design of modular, cost-effective field mapper robot
 | Arduino UNO R4 Minima                   | 1           | 16.00            | [Link](https://thepihut.com/products/arduino-uno-r4-minima)                                               
 | Gaussmeter Model GM2                    | 1           | 902.00           | [Link](https://www.alphalabinc.com/products/gm2/?srsltid=AfmBOor0p2l-VF9fIRODsZqY854WaDDNnBIFsOJ6kHjN2p6iCgCOzTLX)                                      |  
 | **TOTAL**                               |             | **1262.14$**      |                                                                                                                   
+# 3D printable files
+
 
 ![Field_mapper_robot drawio](https://github.com/user-attachments/assets/38352768-0899-4472-8edb-4463edf41c30)
 
