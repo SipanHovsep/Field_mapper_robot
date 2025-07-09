@@ -1,0 +1,52 @@
+const int Step_z = 7;
+const int Dir_z = 6;
+const int Step_x = 5;
+const int Dir_x = 4;
+const int Step_y = 3;
+const int Dir_y = 2;
+
+#define STEPS_PER_MM 533
+
+
+
+void setup() {
+  Serial.begin(9600);
+  pinMode (Step_z , OUTPUT);
+  pinMode (Dir_z , OUTPUT);
+  pinMode (Step_x , OUTPUT);
+  pinMode (Dir_x , OUTPUT);
+  pinMode (Step_y , OUTPUT);
+  pinMode (Dir_y , OUTPUT);
+}
+
+void loop() {
+  if (Serial.available()) {
+    String cmd = Serial.readStringUntil('\n');
+    cmd.trim();
+
+    if (cmd == "X+" || cmd == "X-") {
+      digitalWrite(Dir_x, cmd == "X+" ? HIGH : LOW);
+      moveSteps(Step_x);
+    }
+    else if (cmd == "Y+" || cmd == "Y-") {
+      digitalWrite(Dir_y, cmd == "Y+" ? HIGH : LOW);
+      moveSteps(Step_y);
+    }
+    else if (cmd == "Z+" || cmd == "Z-") {
+      digitalWrite(Dir_z, cmd == "Z+" ? HIGH : LOW);
+      moveSteps(Step_z);
+    }
+
+    // clear leftover serial
+    while (Serial.available()) Serial.read();
+  }
+}
+
+void moveSteps(int stepPin) {
+  for (int i = 0; i < STEPS_PER_MM; i++) {
+    digitalWrite(stepPin, HIGH);
+    delayMicroseconds(200);
+    digitalWrite(stepPin, LOW);
+    delayMicroseconds(200);
+  }
+}
