@@ -17,3 +17,4 @@ Design of modular, cost-effective field mapper robot
 
 ![Diagram](Attachments/draw1.png)
 
+![Diagram](Attachments/draw2.png)
