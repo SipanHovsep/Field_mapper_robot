@@ -1,5 +1,5 @@
 /* ───────────────── robot pin map ───────────────── */
-const int Step_z = 7, Dir_z = 6;
+const int Step_z = 8, Dir_z = 6;
 const int Step_x = 5, Dir_x = 4;
 const int Step_y = 3, Dir_y = 2;
 #define STEPS_PER_MM  533.33333334            // 1-mm move = 533 pulses
