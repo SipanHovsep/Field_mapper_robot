@@ -7,7 +7,7 @@ const int Step_y = 3, Dir_y = 2;
 
 /* ───────────────── sensor setup ────────────────── */
 const byte  SIG_PIN = A2;            // analogue input
-const float VREF    = 4.9250;           // 3.3 V boards; use 5.0 for Uno
+const float VREF    = 4.9010;           // 3.3 V boards; use 5.0 for Uno
 const uint16_t FULL_SCALE = 1023;    // 10-bit ADC (0-1023)
 
 void setup() {
