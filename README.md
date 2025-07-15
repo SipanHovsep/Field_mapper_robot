@@ -23,6 +23,21 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 
 ---
 
+
+## High‑Level Workflow
+
+<div align="center">
+  <img src="Attachments/draw1.png" width="700" alt="System flowchart 1" />
+</div>
+<p align="center"><em>software workflow</em></p>
+
+<div align="center">
+  <img src="Attachments/draw2.png" width="700" alt="System flowchart 2" />
+</div>
+
+---
+
+
 ## Scripts Overview  
 
 ### `Arduino_finder.py`  
@@ -54,14 +69,7 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 
 
 
-## High‑Level Workflow
 
-<div align="center">
-  <img src="Attachments/draw1.png" width="500" alt="System flowchart 1" />
-</div>
-<div align="center">
-  <img src="Attachments/draw2.png" width="500" alt="System flowchart 2" />
-</div>
 
 
 
