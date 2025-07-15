@@ -58,7 +58,7 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 - Run once the arduino is connected 
 - Finds the connection port name and writes it in Arduino_port.txt file 
 
-### `Path_maker.py`  
+### [`Path_maker.py`](scripts/Path_maker.py)
 
 - Generates the path trajectory with discrete points
 - Allows user to modify the trajectory and spacing between individual points
