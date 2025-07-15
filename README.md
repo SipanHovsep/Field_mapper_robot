@@ -2,7 +2,9 @@
 
 ## Overview
 Design of a **modular, cost‑effective robot** for mapping magnetic fields within a defined volume.
-
+<div align="center">
+  <img src="Attachments/image1.jpg" width="450" alt="Ruler attached to linear stage" />
+</div>
 ---
 
 ## Requirements
