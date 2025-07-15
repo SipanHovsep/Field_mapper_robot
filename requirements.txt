@@ -1,1 +1,3 @@
-sa
+matplotlib
+numpy
+pyserial
