@@ -49,7 +49,7 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 <div align="center">
   <img src="Attachments/draw2.png" width="700" alt="System flowchart 2" />
 </div>
-<h3 align="center"><em>Wiring diagram</em></
+<h3 align="center"><em>Wiring diagram</em></h3>
 ---
 
 
@@ -65,9 +65,9 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
     ```bash  
     pip install -r requirements.txt  
     ```  
-3. Configure and populate your PostgreSQL database.  
-4. Connect the hardware as described in the components section.  
-5. Run the scripts for data collection, visualization, and analysis. 
+3. Connect the hardware as described in the wiring diagram.
+4. Print the files in [3D print files](3D print files)
+5. Connect and upload [`Arduino_script.ino`](scripts/Arduino_script.ino) to Arduino 
 
 ---
 
