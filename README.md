@@ -8,8 +8,10 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 ---
 
 ## Requirements
-*Specify hardware/firmware requirements here.*
-
+| **Software** | **Description**                               | **Download Link**                        |  
+|--------------|-----------------------------------------------|------------------------------------------|  
+| Pycharm   | Pyhton IDE | [Link](https://www.jetbrains.com/pycharm/) |  
+| Arduino IDE   | Native software of Arduino | [Link](https://www.arduino.cc/en/software/) |
 ---
 
 ## Bill of Materials
