@@ -10,8 +10,9 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 ## Requirements
 | **Software** | **Description**                               | **Download Link**                        |  
 |--------------|-----------------------------------------------|------------------------------------------|  
-| Pycharm   | Pyhton IDE | [Link](https://www.jetbrains.com/pycharm/) |  
+| Pycharm   | Pyhton IDE (Pyhton 3.13) | [Link](https://www.jetbrains.com/pycharm/) |  
 | Arduino IDE   | Native software of Arduino | [Link](https://www.arduino.cc/en/software/) |
+
 ---
 
 ## Bill of Materials
