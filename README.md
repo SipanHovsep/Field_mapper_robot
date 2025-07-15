@@ -37,7 +37,7 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 <h3 align="center"><em>Wiring diagram</em></
 ---
 
-
+---
 ## Scripts Overview  
 
 ### `Arduino_finder.py`  
