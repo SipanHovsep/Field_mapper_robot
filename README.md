@@ -23,6 +23,44 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 
 ---
 
+## Scripts Overview  
+
+### `Arduino_finder.py`  
+
+- Run once the arduino is connected 
+- Finds the connection port name and writes it in Arduino_port.txt file 
+
+### `Path_maker.py`  
+
+- Generates the path trajectory with discrete points
+- Allows user to modify the trajectory and spacing between individual points
+- Visualizes the path in 3D with exact sequence the robot would follow, for user to validate
+- Writes the x y z coordinates of the path in the right order in "path.CSV" file
+
+### `Arduino_runner.py`  
+
+- Connects to Arduino using information written by Arduino_finder.py 
+- Interacts with CNC machines via serial communication and logs Gaussmeter sensor data.  
+
+
+### `GaussmeterReader`  
+
+- Used to measure the magnetic field of the OSII MRI through serial communication with a Gaussmeter sensor.  
+
+
+
+## High‑Level Workflow
+
+<div align="center">
+  <img src="Attachments/draw1.png" width="500" alt="System flowchart 1" />
+</div>
+<div align="center">
+  <img src="Attachments/draw2.png" width="500" alt="System flowchart 2" />
+</div>
+
+
+
+---
 ## Assembly Tips
 
 ### 1 · Axis Ruler for Quick Calibration
@@ -56,14 +94,7 @@ Set switches **S1–S6 = OFF** to match the firmware micro‑stepping and prot
 
 ---
 
-## High‑Level Workflow
-<div align="center">
-  <img src="Attachments/draw1.png" width="500" alt="System flowchart 1" />
-</div>
-<div align="center">
-  <img src="Attachments/draw2.png" width="500" alt="System flowchart 2" />
-</div>
+
 
 ---
 
-© 2025 Field Mapper Robot Project. Licensed under MIT.
