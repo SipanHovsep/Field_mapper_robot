@@ -53,7 +53,8 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 ---
 ## Scripts Overview  
 
-### `Arduino_finder.py`  
+
+### [`Arduino_finder.py`](scripts/Arduino_finder.py)
 
 - Run once the arduino is connected 
 - Finds the connection port name and writes it in Arduino_port.txt file 
@@ -65,7 +66,8 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 - Visualizes the path in 3D with exact sequence the robot would follow, for user to validate
 - Writes the x y z coordinates of the path in the right order in "path.CSV" file
 
-### `Arduino_runner.py`  
+### [`Arduino_runner.py`](scripts/Arduino_runner.py)
+  
 - Allows user to input delay time for sensor read at each desired point and control the speed of robot movement
 - Retrieves the coordinates from "path.CSV" file
 - Generates text commands to move the robot according to the path
@@ -73,9 +75,9 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 - Records voltage readings of Gaussmeter per data point and appends to corresponding coordinate
 - Generates Data.CSV, containing x y z reading values for each coordinates
 
-### `Arduino_script.ino`  
+### [`Arduino_script.ino`](scripts/Arduino_script.ino)
 - Defines Pin map of the arduino
-- Listens for simple text commands (X+, X-, Y+, Y-, Z+, Z-, READ) sent over USB at 9600 baud (Links Arduino_runner.py with Arduino)
+- Listens for simple text commands (X+, X-, Y+, Y-, Z+, Z-, READ) sent over USB at 9600 baud (Links [`Arduino_runner.py`](scripts/Arduino_runner.py) with Arduino)
 - Moves the robot 1 mm per command by pulsing the chosen step pin 533.34 times (defined by callibration)
 - Reads the sensor when given READ command (defined by the Arduino_runner.py)
 - converts the analog singal from GM-2 Gaussmeter to volts using a 0.4901V reference (according to calibration), and prints it with five‑decimal accuracy.
