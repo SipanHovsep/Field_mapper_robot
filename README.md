@@ -13,6 +13,18 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 | Pycharm   | Pyhton IDE (Pyhton 3.13) | [Link](https://www.jetbrains.com/pycharm/) |  
 | Arduino IDE   | Native software of Arduino | [Link](https://www.arduino.cc/en/software/) |
 
+Hardware requirements 
+* **CPU:** 64‑bit dual‑core (modern) 
+* **RAM:** ≥ 8 GB (PyCharm needs 2 GB free) 
+* **Storage:** ≥ 5 GB free SSD (PyCharm ≈3.5 GB + projects)
+* **OS:** Win 10 64‑bit +, macOS 10.15 +, Ubuntu 20.04 + 
+* Basic jumper wires for arduino
+* M3 screws with nuts
+* Type-C to Type-C or USB cable (to connect to arduino Uno R4)
+* wire cutter stripper
+* Precision screwdriver set
+
+
 ---
 
 ## Bill of Materials
