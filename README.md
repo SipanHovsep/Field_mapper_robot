@@ -66,8 +66,11 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
     pip install -r requirements.txt  
     ```  
 3. Connect the hardware as described in the wiring diagram.
-4. Print the files in [3D print files](3D print files)
-5. Connect and upload [`Arduino_script.ino`](scripts/Arduino_script.ino) to Arduino 
+4. Print the files in [3D print files](3D_print_files)
+5. Connect and upload [`Arduino_script.ino`](scripts/Arduino_script.ino) to Arduino
+6. Run [`Arduino_finder.py`](scripts/Arduino_finder.py)
+7. Run [`Path_maker.py`](scripts/Path_maker.py)
+8. Run [`Arduino_runner.py`](scripts/Arduino_runner.py)
 
 ---
 
