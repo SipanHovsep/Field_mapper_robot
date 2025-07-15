@@ -22,6 +22,21 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 * Wire cutter/stripper  
 * Precision screwdriver set  
 
+## Installation and Setup  
+
+1. Clone the repository:  
+    ```bash  
+    git clone https://github.com/SipanHovsep/Field_mapper_robot
+    ```  
+2. Install dependencies:  
+    ```bash  
+    pip install -r requirements.txt  
+    ```  
+3. Configure and populate your PostgreSQL database.  
+4. Connect the hardware as described in the components section.  
+5. Run the scripts for data collection, visualization, and analysis. 
+
+
 
 ---
 
