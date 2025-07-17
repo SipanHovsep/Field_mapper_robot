@@ -71,7 +71,7 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 6. Run [`Arduino_finder.py`](scripts/Arduino_finder.py)
 7. Run [`Path_maker.py`](scripts/Path_maker.py)
 8. Run [`Arduino_runner.py`](scripts/Arduino_runner.py)
-
+9. Check out [`Supporting images`](Attachments/Supporting images/) for further images
 ---
 
 
