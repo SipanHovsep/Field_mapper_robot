@@ -50,7 +50,7 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
   <img src="Attachments/draw_2.png" width="700" alt="System flowchart 2" />
 </div>
 <h3 align="center"><em>Wiring diagram</em></h3>
----
+
 
 
 
