@@ -42,12 +42,12 @@ Design of a **modular, cost‑effective robot** for mapping magnetic fields with
 ## High‑Level Workflow
 
 <div align="center">
-  <img src="Attachments/draw1.png" width="1000" alt="System flowchart 1" />
+  <img src="Attachments/draw_1.png" width="1000" alt="System flowchart 1" />
 </div>
 <h3 align="center"><em>Software workflow diagram</em></h3>
 
 <div align="center">
-  <img src="Attachments/draw2.png" width="700" alt="System flowchart 2" />
+  <img src="Attachments/draw_2.png" width="700" alt="System flowchart 2" />
 </div>
 <h3 align="center"><em>Wiring diagram</em></h3>
 ---
