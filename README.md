@@ -141,12 +141,5 @@ Set switches **S1–S6 = OFF** to match the firmware micro‑stepping and prot
 
 ---
 
-## 3‑D Printable Parts
-*Upload STL/STEP files in this directory and list them here.*
 
----
-
-
-
----
 
