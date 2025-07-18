@@ -1,5 +1,5 @@
 /* ──────────── pin map (unchanged) ──────────── */
-const int Step_z = 8, Dir_z = 6;
+const int Step_z = 7, Dir_z = 6;
 const int Step_x = 5, Dir_x = 4;
 const int Step_y = 3, Dir_y = 2;
 
